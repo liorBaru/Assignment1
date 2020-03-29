@@ -22,17 +22,17 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
+
+<H1 align="center"> about me</H1>
+  <p align="center">
+    My name is Lior and I am 27, I was born in Eilat to my mother anemone and my father 
+    <br/>
+    Yosef, I have one sister and heard Liron. I really like the sea, traveling and doing sports.
+    <br/>
+    So far, I have learned a great deal in the degree from a wide range of subjects, and I want 
+    <br/>
+     to do a cyber internship next year.
+  </p>
 <br/>
 <br/>
 </section>
@@ -42,21 +42,13 @@ about me
 <br/>
 <br/>
 <br/>
+
+
+<H1 align="center"> my photos</H1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
+<img class="photo1" src="photos\WhatsApp Image 2020-03-27 at 21.58.08.jpeg" alt="">
+<img class="photo2" src="photos\WhatsApp Image 2020-03-27 at 21.58.19.jpeg" alt="">
+<img class="photo3" src="photos\WhatsApp Image 2020-03-27 at 21.59.08.jpeg" alt="">
 <br/>
 </section>
 
@@ -69,17 +61,13 @@ my photos
 <br/>
 <br/>
 <br/>
+
+<H1 align="center"> my playlist</H1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
+<div align="center" class="myvideo">
+  <iframe width="500px" height="350px" src="https://www.youtube.com/embed/dlfSm3yjRss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <br/>
 </section>
 
@@ -88,22 +76,12 @@ my playlist
 <br/>
 <br/>
 <br/>
+
+
+<H1 align="center"> give me a like</H1>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+<div align="center" class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 </section>
 
 <section id="qrcoder" class="section">
@@ -111,21 +89,14 @@ give me a like
 <br/>
 <br/>
 <br/>
+
+
+<H1 align="center"> scan my code</H1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
+<div align="center">
+  <img class="photo1" src="photos\frame (1).png" alt="">
+</div>
+
 <br/>
 </section>
 
@@ -138,17 +109,22 @@ scan my code
 <br/>
 <br/>
 <br/>
+
+<H1 align="center"> ans</H1>
 <br/>
+<H3> the three main diffrences between web1, web2, and web3?</H3>
+<p> Web 1.0 is an one sided portal where users can get information but cant post comment, post reviews or feedbak.</p>
+<P> Web 2.0 allowing participation by the users and informaition sharing. Some example for such websites are facebook, YouTube Wiki and more.</P>
+<p>Web 3.0 is a next generation web' which refer to the future. In Web 3.0 computers will have the capabilities like humans and will be able to generate and distrubute useful content to te neds of the users. </p>
 <br/>
+<H3> Medicines side effects Use Case:</H3>
+<p>web 1.0:</p>
+<p>Query: "Medication side effects"</p>
+<p>Return all the static pages whith explanations abaut "Medication side effects "."</p>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
+<p>web 3.0:</p>
+<p>Query: "Medication side effects"</p>
+<p>Return results based on meducal database medications side effects thich based on more than billion user posts. Posts are indexed and organized in unified medical DB."</p>
 <br/>
 </section>
 
@@ -160,18 +136,26 @@ ans
 <br/>
 <br/>
 <br/>
+
+<H1 align="center"> contact me</H1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
+<div align="center">
+  <form  class="contact-me" action="contactform.php" method="post">
+    <p>Email</p>
+    <input type="text" name="Email" placeholder="Your e-mail">
+    <br/>
+    <input type="text" name="subject" placeholder="subject">
+    <br/>
+    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+    <br/>
+    <p>
+      <button type="submit" name="submit"> send</button>
+      <input type="reset" value="Clear" />
+    </p>
+    
+  </form>
+</div>
+
 <br/>
 </section>
 
@@ -189,5 +173,9 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+
 </body>
 </html>
